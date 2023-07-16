@@ -1,0 +1,59 @@
+.author-name h4{
+    color: #4E5A65;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+}
+
+.author-name p{
+    color: #4E5A65;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
+
+.author-name {
+    display: flex;
+    flex-direction: column;
+    /* gap: 8px; */
+}
+.author{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.customers{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+
+@media (max-width : 568px){
+    #customers{
+        padding: 40px;
+    }
+
+    .customers-title h2{
+font-size: 18px;
+font-weight: 600;
+    }
+
+
+    .carousel-item p{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .author{
+        flex-direction: column;
+        gap: 9px;
+    }
+
+   
+}

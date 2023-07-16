@@ -204,6 +204,10 @@ margin-left: 200px;
     
 }
 
+.stats>img{
+    display: none;
+}
+
 
 /* media  */
 
@@ -218,9 +222,17 @@ margin-left: 200px;
     display: none;
    }
 
-   .comment>img{
-    display: block;
+   
 }
+
+
+
+    #image{
+        display: none;
+    }
+
+       
+
 
 .comment{
     padding: 0 5px;

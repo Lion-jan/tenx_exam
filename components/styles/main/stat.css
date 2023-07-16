@@ -56,7 +56,7 @@ background: #796EFF;
     bottom: -35px;
     right: -115px;
 }
-.stats:nth-child(3){
+.stats>img{
     display: none;
 }
 
@@ -65,16 +65,17 @@ background: #796EFF;
         flex-wrap: wrap;
         flex-direction: column-reverse;
     }
-
+    #image{
+        display: block;
+        width: 340px;
+    }
     
 
     .stat-graph{
         display: none;
     }
 
-    .stats:nth-child(3){
-        display: block;
-    }
+    
     
     .stat-text{
         align-items: center;
@@ -100,7 +101,7 @@ font-weight: 400;
 
     .stat-text a{
         width: 100%;
-        text-align: center;
+        text-align: center; 
     }
 
     
