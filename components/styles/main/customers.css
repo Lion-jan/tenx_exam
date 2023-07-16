@@ -33,6 +33,12 @@ font-weight: 400;
 }
 
 
+
+#customers{
+    padding-top: 100px;
+}
+
+
 @media (max-width : 568px){
     #customers{
         padding: 40px;
