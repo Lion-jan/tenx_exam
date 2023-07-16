@@ -1,0 +1,76 @@
+#easy{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.easy-card img{
+    padding: 19px ;
+    border-radius: 33px;
+    margin-bottom: 24px;
+}
+
+.img1 img{
+    background-color: #FEF6EE;
+
+}
+
+.img2 img{
+    background-color: #E8FAFA;
+}
+
+.img3 img{
+    background-color: #F7EBF9;
+}
+
+.img4 img{
+    background-color: #FFEFF3;
+}
+
+.img5 img{
+    background-color: #EDE8F7;
+}
+
+.img6 img{
+    background-color:   #FEF5EC;
+}
+.easy-text h4{
+    color: #35414B;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+margin-bottom: 10px;
+}
+
+#easy h2{
+    color: #35414B;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+margin-bottom: 56px;
+}
+
+.easy-text p{
+    color: #4E5A65;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.easy-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+@media (max-width : 568px){
+    #easy{
+        text-align: center;
+        padding: 0 auto;
+    }
+
+    .easy-cards{
+        justify-content: center;
+    }
+}

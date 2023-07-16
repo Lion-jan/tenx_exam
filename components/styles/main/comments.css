@@ -211,6 +211,7 @@ margin-left: 200px;
     .comment{
         flex-wrap: wrap;
         gap: 32px;
+        text-align: center;
     }
 
    .comment-card{
