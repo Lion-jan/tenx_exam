@@ -27,7 +27,7 @@ margin-bottom: 100px;
 .download-text h2{
     color: #fff ;
 }
-#check1, #check2,#check3,label{
+#check1, #check2,#check3,label      {
     display: none;
 }
 

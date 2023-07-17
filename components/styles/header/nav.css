@@ -41,8 +41,11 @@ nav a {
     background: #ECE5FF;
 }
 
-.burger input,
 .burger label {
+    display: none;
+}
+
+#burger {
     display: none;
 }
 
@@ -66,7 +69,18 @@ nav a {
         flex-direction: column;
         gap: 20px;
         align-items: flex-start;
+        transform: translate(300px);
         display: none;
+        align-items: center;
+        padding: 20px;
+        background-color: aqua;
+        border-radius: 14px;
+        
+
+    }
+
+    .nav-links{
+        align-items: flex-start;
     }
 
     .nav-login :nth-child(2) {
@@ -75,11 +89,27 @@ nav a {
         background: none;
 
     }
+
+    .nav-login{
+        align-items: flex-start;
+        padding-left: 50px;
+    }
+
+    .nav-bar{
+        align-items: flex-start;
+    }
 .nav-login {
     display: flex;
     gap: 16px;
     align-items: flex-start;
 }
+
+#burger:checked +.nav-items{
+    transform: translate(40px ,39px);
+    display: flex;
+   
+}
+
 
 
 
