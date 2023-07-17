@@ -14,6 +14,7 @@ nav {
     display: flex;
     align-items: flex-start;
     gap: 30px;
+    margin-bottom: 0;
 }
 
 .nav-login {
@@ -43,6 +44,11 @@ nav a {
 .burger input,
 .burger label {
     display: none;
+}
+
+
+.btn:hover{
+    background: #c9c0e4;
 }
 
 

@@ -72,5 +72,6 @@ margin-bottom: 56px;
 
     .easy-cards{
         justify-content: center;
+        gap: 20px;
     }
 }
