@@ -171,6 +171,10 @@ font-size: 13px;
         gap: 8px;
     }
 
+    .download{
+        text-align:center;
+    }
+
     .title-flex{
         gap: 16px;
         padding: 0 30px;
