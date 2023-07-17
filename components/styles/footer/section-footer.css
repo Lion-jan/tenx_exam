@@ -72,6 +72,10 @@ font-weight: 400;
         flex-direction: column;
         gap: 20px;
     }
+
+    label{
+        display: block;
+    }
     
 }
 
