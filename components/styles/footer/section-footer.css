@@ -1,0 +1,44 @@
+
+.group h2{
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+}
+
+.group ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: left;
+}
+
+.group a{
+    text-decoration: none;
+    color: #fff;
+    padding: 3px;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+
+}
+
+.group a:hover{
+    color: #7e7272;
+    transition: all smooth;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items:center ;
+}
+
+.footer-groups{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
